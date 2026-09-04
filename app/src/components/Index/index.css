@@ -1,0 +1,118 @@
+.indexPreviewPage {
+  position: relative;
+  width: 595px;
+  height: 842px;
+  margin: 0 auto 18px;
+  padding: 56px;
+  background: #fff;
+  color: #3c3c3c;
+  font-family: Manrope, Arial, sans-serif;
+  box-shadow: 0 3px 10px #0003;
+  overflow: hidden;
+}
+.indexPreviewTop {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 500;
+}
+.indexPreviewTop > div {
+  display: flex;
+  flex-direction: column;
+}
+.indexPreviewTop > div:last-child {
+  text-align: right;
+  font-weight: 400;
+}
+.indexPreviewIntro {
+  position: absolute;
+  top: 130px;
+  left: 56px;
+  width: 483px;
+}
+.indexPreviewIntro h3 {
+  margin: 0;
+  font:
+    700 20px Helvetica,
+    Arial,
+    sans-serif;
+}
+.indexPreviewRule {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  left: 0;
+  width: 140px;
+  height: 1px;
+  background: #3c3c3c;
+}
+.indexPreviewTitle {
+  position: absolute;
+  top: 205px;
+  left: 56px;
+  width: 485px;
+  margin: 0;
+  font:
+    700
+    33px/1.1 Helvetica,
+    Arial,
+    sans-serif;
+  letter-spacing: -1px;
+  white-space: pre-line;
+  line-height: 1.24;
+}
+.indexPreviewBody {
+  position: absolute;
+  top: 370px;
+  right: 56px;
+  left: 56px;
+}
+.indexPreviewDescription {
+  width: 235px;
+  font-size: 12px;
+  line-height: 18px;
+}
+.indexPreviewDescription p {
+  margin: 0 0 19px;
+}
+.indexPreviewItems {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 220px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.indexPreviewItems li {
+  position: relative;
+  display: grid;
+  grid-template-columns: 42px 1fr;
+  gap: 7px;
+  min-height: 137px;
+}
+.indexPreviewItems li > span {
+  display: grid;
+  width: 32px;
+  height: 32px;
+  place-items: center;
+  border: 1px solid #3c3c3c;
+  border-radius: 50%;
+  font:
+    12px Helvetica,
+    Arial,
+    sans-serif;
+}
+.indexPreviewItems h3 {
+  margin: 3px 0 14px;
+  font:
+    700 23px Helvetica,
+    Arial,
+    sans-serif;
+}
+.indexPreviewItems p {
+  margin: 0 0 14px;
+  font-size: 11px;
+  line-height: 15px;
+}

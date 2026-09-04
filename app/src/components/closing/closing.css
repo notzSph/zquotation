@@ -1,0 +1,74 @@
+.closingPreviewPage {
+  position: relative;
+  width: 595px;
+  height: 842px;
+  margin: 0 auto 18px;
+  padding: 56px 55px;
+  background: #fff;
+  color: #3c3c3c;
+  font-family: Manrope, Arial, sans-serif;
+  box-shadow: 0 3px 10px #0003;
+  overflow: hidden;
+}
+.closingPreviewTop {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 500;
+}
+.closingPreviewTop > div {
+  display: flex;
+  flex-direction: column;
+}
+.closingPreviewTop > div:last-child {
+  text-align: right;
+  font-weight: 400;
+}
+.closingPreviewPage h2 {
+  position: absolute;
+  top: 482px;
+  left: 55px;
+  margin: 0;
+  font:
+    64px/0.9 Helvetica,
+    Arial,
+    sans-serif;
+  letter-spacing: -3px;
+}
+.closingPreviewContact {
+  position: absolute;
+  right: 55px;
+  bottom: 77px;
+  text-align: right;
+  font-size: 12px;
+  line-height: 15px;
+}
+.closingPreviewContact p {
+  margin: 0 0 10px;
+}
+.closingPreviewContact p:first-child {
+  font:
+    700 14px Helvetica,
+    Arial,
+    sans-serif;
+}
+.closingPreviewArrow {
+  position: absolute;
+  bottom: 64px;
+  left: 52px;
+  color: #3c3c3c;
+}
+.closingPreviewPage footer {
+  position: absolute;
+  right: 55px;
+  bottom: 27px;
+  left: 55px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 8px;
+  line-height: 10px;
+}
+.closingPreviewPage footer span {
+  display: block;
+}

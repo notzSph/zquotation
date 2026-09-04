@@ -1,0 +1,106 @@
+.coverPreviewPage {
+  position: relative;
+  width: 595px;
+  height: 842px;
+  margin: 0 auto 18px;
+  background: #fff;
+  color: #2b2b2b;
+  font-family: Manrope, Arial, sans-serif;
+  box-shadow: 0 3px 10px #0003;
+  overflow: hidden;
+}
+.coverPreviewImage {
+  position: absolute;
+  top: 390px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 489px;
+  background: url("/cover-architecture.png") center bottom/cover no-repeat;
+}
+.coverPreviewAccent {
+  position: absolute;
+  top: 390px;
+  bottom: 0;
+  left: 68px;
+  width: 230px;
+  background: #8f85d5e6;
+}
+.coverPreviewProvider,
+.coverPreviewDate,
+.coverPreviewPage h2,
+.coverPreviewParties {
+  z-index: 1;
+}
+.coverPreviewHeader {
+  position: absolute;
+  z-index: 1;
+  top: 56px;
+  right: 55px;
+  left: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.coverPreviewProvider {
+  display: flex;
+  flex-direction: column;
+  font:
+    500 14px/16px Manrope,
+    Arial,
+    sans-serif;
+}
+
+.coverPreviewProvider span {
+    text-transform: uppercase;
+}
+
+.coverPreviewDate {
+  text-align: right;
+  font:
+    14px/16px Manrope,
+    Arial,
+    sans-serif;
+}
+.coverPreviewPage h2 {
+  position: absolute;
+  top: 135px;
+  left: 51px;
+  width: 485px;
+  margin: 0;
+  font:
+    64px/1.04 Helvetica,
+    Arial,
+    sans-serif;
+  letter-spacing: -3px;
+  text-transform: uppercase;
+}
+.coverPreviewParties {
+  position: absolute;
+  top: 293px;
+  left: 55px;
+  right: 59px;
+  display: grid;
+  grid-template-columns: 211px 1fr;
+  gap: 28px;
+}
+.coverPreviewParties p {
+  margin: 0 0 5px;
+  font:
+    12px Manrope,
+    Arial,
+    sans-serif;
+}
+.coverPreviewParties strong {
+  display: block;
+  font:
+    700 22px/26px Helvetica,
+    Arial,
+    sans-serif;
+  letter-spacing: -0.4px;
+}
+.coverPreviewParties span {
+  display: block;
+  margin-top: 5px;
+  font-size: 12px;
+}

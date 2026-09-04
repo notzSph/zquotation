@@ -1,0 +1,125 @@
+.prospectPreviewPage {
+  position: relative;
+  width: 595px;
+  height: 842px;
+  margin: 0 auto 18px;
+  padding: 56px 55px;
+  background: #fff;
+  color: #3c3c3c;
+  font-family: Manrope, Arial, sans-serif;
+  box-shadow: 0 3px 10px #0003;
+  overflow: hidden;
+}
+
+.prospectPreviewTop {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 500;
+}
+
+.prospectPreviewTop > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.prospectPreviewTop > div:last-child {
+  text-align: right;
+  font-weight: 400;
+}
+
+.prospectPreviewPage h2 {
+  margin: 50px 0 48px;
+  font:
+    48px/0.95 Helvetica,
+    Arial,
+    sans-serif;
+  letter-spacing: -2px;
+}
+
+.prospectPreviewIntro {
+  width: 367px;
+  margin: -25px 0 48px;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.prospectPreviewTable {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  border: 0.35px solid #3c3c3c;
+  font-size: 12px;
+}
+
+.prospectPreviewItemColumn {
+  width: 141px;
+}
+.prospectPreviewTotalColumn {
+  width: 86px;
+}
+
+.prospectPreviewTable th,
+.prospectPreviewTable td {
+  padding: 12px 10px;
+  border-right: 0.35px solid #3c3c3c;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.prospectPreviewTable th:last-child,
+.prospectPreviewTable td:last-child {
+  border-right: 0;
+  text-align: center;
+}
+
+.prospectPreviewTable thead {
+  background: #0d1a26;
+  color: #f8f7f3;
+  font:
+    12px Helvetica,
+    Arial,
+    sans-serif;
+}
+
+.prospectPreviewTable thead th {
+  padding-top: 11px;
+  padding-bottom: 11px;
+}
+.prospectPreviewTable tbody th {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+.prospectPreviewTable tbody td {
+  line-height: 16.5px;
+}
+.prospectPreviewTable tbody tr {
+  border-bottom: 0.35px solid #3c3c3c;
+}
+.prospectPreviewTable tfoot {
+  font:
+    12px Manrope,
+    Arial,
+    sans-serif;
+}
+.prospectPreviewTable tfoot th,
+.prospectPreviewTable tfoot td {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.prospectPreviewTable tfoot td:last-child {
+  font-weight: 700;
+}
+
+.prospectPreviewNote {
+  position: absolute;
+  right: 55px;
+  bottom: 56px;
+  left: 55px;
+  width: 380px;
+  margin: 0;
+  font-size: 12px;
+  line-height: 18px;
+}

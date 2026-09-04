@@ -1,0 +1,25 @@
+.proposalPreviewHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.proposalPreviewProvider.proposalPreviewProvider {
+  display: flex;
+  flex-direction: row;
+  gap: 7px;
+  align-items: center;
+}
+
+.proposalPreviewLogo {
+  flex: none;
+  width: 65px;
+  height: 65px;
+}
+
+.proposalPreviewProviderText {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+  text-transform: uppercase;
+}

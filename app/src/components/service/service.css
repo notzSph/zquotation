@@ -1,0 +1,87 @@
+.servicePreviewPage {
+  position: relative;
+  width: 595px;
+  height: 842px;
+  margin: 0 auto 18px;
+  padding: 56px 47px;
+  background: #fff;
+  color: #3c3c3c;
+  font-family: Manrope, Arial, sans-serif;
+  overflow: hidden;
+  box-shadow: 0 3px 10px #0003;
+}
+.servicePreviewTop {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  line-height: 16px;
+}
+.servicePreviewProvider,
+.servicePreviewDate {
+  display: flex;
+  flex-direction: column;
+}
+.servicePreviewProvider {
+  font-weight: 500;
+}
+.servicePreviewDate {
+  text-align: right;
+  font-weight: 400;
+}
+.servicePreviewTitle {
+  margin: 88px 0 35px;
+  font:
+    63px/1.1 Helvetica,
+    Arial,
+    sans-serif;
+  letter-spacing: -3px;
+}
+.servicePreviewIntro {
+  width: 310px;
+  margin: 0;
+  font-size: 12px;
+  line-height: 18px;
+}
+.servicePreviewGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 35px;
+  row-gap: 65px;
+  margin-top: 70px;
+}
+.servicePreviewItem {
+  display: grid;
+  grid-template-columns: 34px 1fr;
+  gap: 22px;
+  align-items: start;
+}
+.servicePreviewNumber {
+  display: grid;
+  place-items: center;
+  width: 34px;
+  height: 34px;
+  border: 0.8px solid #3c3c3c;
+  border-radius: 50%;
+  color: #3c3c3c;
+  font:
+    16px/1 Helvetica,
+    Arial,
+    sans-serif;
+}
+.servicePreviewItem.secondary .servicePreviewNumber {
+  border-color: #e4e4e4;
+  color: #3c3c3c;
+}
+.servicePreviewItem h3 {
+  margin: 5px 0 15px;
+  font:
+    24px/0.95 Helvetica,
+    Arial,
+    sans-serif;
+  letter-spacing: -1px;
+}
+.servicePreviewItem p {
+  margin: 0;
+  font-size: 12px;
+  line-height: 18px;
+}

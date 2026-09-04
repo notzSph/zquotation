@@ -1,0 +1,33 @@
+{
+  "logo": "yourlogo.svg",
+  "provider": "John Doe Studio",
+  "providerMeta": "Digital consultancy",
+  "client": "John Doe",
+  "title": "Project Proposal",
+  "showHourlyProspect": false,
+  "showMaintenanceProspect": false,
+  "showTimeline": false,
+  "indexSubtitle": "Website design and development",
+  "indexItems": [
+    { "title": "Strategy", "copy": ["Objectives, audience and content priorities."] },
+    { "title": "Design", "copy": ["Clear interface direction and responsive layouts."] },
+    { "title": "Delivery", "copy": ["Production build, testing and handover."] }
+  ],
+  "intro": "A clear, considered digital experience shaped around agreed objectives and outcomes.",
+  "services": [
+    {
+      "title": "Strategy and Design",
+      "intro": "A focused foundation for a useful and recognisable digital experience.",
+      "items": [
+        { "title": "Discovery", "copy": "Objectives, audience and content priorities." },
+        { "title": "Structure", "copy": "Information architecture and user paths." },
+        { "title": "Interface", "copy": "Responsive layouts and visual direction." },
+        { "title": "Guidelines", "copy": "Practical rules for consistent implementation." }
+      ]
+    }
+  ],
+  "hours": [],
+  "economics": [],
+  "contactLines": ["hello@example.com"],
+  "closing": "Thank you for considering this proposal."
+}
